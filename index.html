@@ -16,7 +16,11 @@
 
       <footer>
         <div class="footer">
-
+          <a
+            href="https://jrpg.com/"
+            onclick="window.parent.location.href='https://jrpg.com/'"
+            >WebGL Tools for Unity</a
+          >
         </div>
       </footer>
     </div>
@@ -29,11 +33,11 @@
         }
 
         var buildUrl = "Build";
-      var loaderUrl = buildUrl +  "/AmTrainingzi.loader.js";
+      var loaderUrl = buildUrl +  "/AimTraining.loader.js";
       var config = {
-          dataUrl: buildUrl + "/AmTrainingzi.data.unityweb",
-          frameworkUrl: buildUrl + "/AmTrainingzi.framework.js.unityweb",
-          codeUrl: buildUrl + "/AmTrainingzi.wasm.unityweb",
+          dataUrl: buildUrl + "/AimTraining.data.unityweb",
+          frameworkUrl: buildUrl + "/AimTraining.framework.js.unityweb",
+          codeUrl: buildUrl + "/AimTraining.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "nito",
           productName: "AimTraining",
